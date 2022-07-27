@@ -18,11 +18,11 @@ export default function AppDev() {
 <div id="carouselExampleFade" className="carousel slide carousel-fade mt-4" data-bs-ride="carousel">
   <div className="carousel-inner">
     <div className="carousel-item active ">
-      <img src="VGB/image/VGB.png" className="d-block w-100 " style={sizec} alt="This is the pic. of website"/>
+      <img src="image/VGB.png" className="d-block w-100 " style={sizec} alt="This is the pic. of website"/>
     </div>
     
     <div className="carousel-item  ">
-      <img src="VGB/image/VGB_2.png" className="d-block w-100 " style={sizec} alt="This is the pic. of website"/>
+      <img src="image/VGB_2.png" className="d-block w-100 " style={sizec} alt="This is the pic. of website"/>
     </div>
     
   </div>
