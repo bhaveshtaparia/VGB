@@ -28,7 +28,7 @@ function App() {
       <Routes>
       
       {/* <Route path="/" component={<Navbar/>} /> */}
-      <Route exact path="/" element={<Home/>} />
+      <Route exact path="VGB/" element={<Home/>} />
       <Route exact path="/home" element={<Home/>} />
       <Route exact path="/about" element={<About/>} />
       <Route exact path="/help" element={<Help/>} />

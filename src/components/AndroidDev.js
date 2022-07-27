@@ -18,11 +18,11 @@ export default function AppDev() {
 <div id="carouselExampleFade" className="carousel slide carousel-fade mt-4" data-bs-ride="carousel">
   <div className="carousel-inner">
     <div className="carousel-item active ">
-      <img src="/image/VGB.png" className="d-block w-100 " style={sizec} alt="This is the pic. of website"/>
+      <img src="VGB/image/VGB.png" className="d-block w-100 " style={sizec} alt="This is the pic. of website"/>
     </div>
     
     <div className="carousel-item  ">
-      <img src="/image/VGB_2.png" className="d-block w-100 " style={sizec} alt="This is the pic. of website"/>
+      <img src="VGB/image/VGB_2.png" className="d-block w-100 " style={sizec} alt="This is the pic. of website"/>
     </div>
     
   </div>
@@ -36,7 +36,7 @@ export default function AppDev() {
   </button>
 </div>
 <div  className='text-center container mt-5'>
-  <a style={{color:"red"}} href='/android/VGB.apk'>Download</a>
+  <a style={{color:"red"}} href='VGB/android/VGB.apk'>Download</a>
 <h3 >HOW TO MAKE THIS APP</h3>
 <p>For make this type of App we need to learn  basic of java. We Should have a knowledge of android studio to make constraints and implemets the  code. <strong>AT last main part is java.</strong>By the help of simple programming idea like:-if-else,loop,onclick function help you to complete this App </p>
 <strong>java code part  ( home page-calculator)</strong>

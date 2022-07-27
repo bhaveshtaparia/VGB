@@ -19,11 +19,11 @@ return (
   <div style={mystyle} className='container'>
   <div className="row " style={{marginTop: 5 + 'em'}}>
     <div  className="col-md-4 mt-5" >
-    <Card apk={"/android/Rock.apk"} set={"Download"} show={"/image/Rock.jpeg"} title={"Rock-paper"} des={"This is the mini project of App development,in this there are cute Rock paper sizzer game "}/>
+    <Card apk={"VGB/android/Rock.apk"} set={"Download"} show={"VGB/image/Rock.jpeg"} title={"Rock-paper"} des={"This is the mini project of App development,in this there are cute Rock paper sizzer game "}/>
     </div>
     
     <div className="col-md-4 offset-md-4 mt-5"  >
-    <Card apk={"/android/Calculator.apk"} set={"Download"}  show={"/image/Calculator.jpeg"} title={"Calculator"} des={"This is the mini project of App development,in this there are simple calculator "}/>
+    <Card apk={"VGB/android/Calculator.apk"} set={"Download"}  show={"VGB/image/Calculator.jpeg"} title={"Calculator"} des={"This is the mini project of App development,in this there are simple calculator "}/>
     </div>
   </div>
   </div>
@@ -42,10 +42,10 @@ return (
   <div style={mystyle} className='container'>
   <div className="row " style={{marginTop: 5 + 'em'}}>
     <div  className="col-md-4" >
-    <Card apk={"https://bhaveshtaparia.github.io/bhanucoding/"} set={"click here"} show={"/image/website1.jpeg"} title={"Website (Frontend)"} des={"This is The front-end-website"}/>
+    <Card apk={"https://bhaveshtaparia.github.io/bhanucoding/"} set={"click here"} show={"VGB/image/website1.jpeg"} title={"Website (Frontend)"} des={"This is The front-end-website"}/>
     </div>
     <div className="col-md-4 offset-md-4"  >
-    <Card apk={""}  show={"/image/Text.png"} set={"comming soon"} title={"Texutils"} des={"front-end React js website"}/>
+    <Card apk={""}  show={"VGB/image/Text.png"} set={"comming soon"} title={"Texutils"} des={"front-end React js website"}/>
     </div>
   </div>
   </div>

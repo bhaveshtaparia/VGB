@@ -18,14 +18,14 @@ export default function WebDev() {
 <div id="carouselExampleFade" className="carousel slide carousel-fade mt-4" data-bs-ride="carousel">
   <div className="carousel-inner">
     <div className="carousel-item active ">
-      <img src="/image/c.png" className="d-block w-100 " style={sizec} alt="This is the pic. of website"/>
+      <img src="VGB/image/c.png" className="d-block w-100 " style={sizec} alt="This is the pic. of website"/>
     </div>
     
     <div className="carousel-item  ">
-      <img src="/image/b.png" className="d-block w-100 " style={sizec} alt="This is the pic. of website"/>
+      <img src="VGB/image/b.png" className="d-block w-100 " style={sizec} alt="This is the pic. of website"/>
     </div>
     <div className="carousel-item   ">
-      <img src="/image/a.png" className="d-block w-100  " style={sizec} alt="This is the pic of website"/>
+      <img src="VGB/image/a.png" className="d-block w-100  " style={sizec} alt="This is the pic of website"/>
     </div>
   </div>
   <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
