@@ -1,5 +1,6 @@
 import React from 'react'
 import { useState } from 'react'
+import Textarea from './Textarea'
 
 
 
@@ -14,7 +15,7 @@ const myuser=()=>{
 </div>)
 }
 return (
-<div style={mystyle}><strong>If you face any problem please Fill This form</strong>
+<div className='text-center container ' style={mystyle}><strong>If you face any problem please Fill This form</strong>
 <form>
   <div className="mb-3">
     <div>{text}</div>
@@ -27,11 +28,11 @@ return (
 
   </div>
  
-    <textarea name="detail" id="detail" cols="80" rows="10" defaultValue="Please share your Problem" required>
-      
-    </textarea>
- <div></div>
+   
+  <Textarea code={"please explane your problem"}  h={"370px"} />
+ <div className='text-center container mt-5'>
 <button type="submit" onClick={myuser} className="btn btn-primary">Submit</button>
+</div>
 </form>
 </div>
 )

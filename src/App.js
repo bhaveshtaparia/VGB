@@ -28,13 +28,13 @@ function App() {
       <Routes>
       
       {/* <Route path="/" component={<Navbar/>} /> */}
-      <Route exact path="VGB/" element={<Home/>} />
-      <Route exact path="VGB/home" element={<Home/>} />
-      <Route exact path="VGB/about" element={<About/>} />
-      <Route exact path="VGB/help" element={<Help/>} />
-      <Route exact path="VGB/dsa" element={<Dsa/>} />
-      <Route exact path="VGB/appdev" element={<AndroidDev/>} />
-      <Route exact path="VGB/webdev" element={<WebDev/>} />
+      <Route exact path="/" element={<Home/>} />
+      <Route exact path="/home" element={<Home/>} />
+      <Route exact path="/about" element={<About/>} />
+      <Route exact path="/help" element={<Help/>} />
+      <Route exact path="/dsa" element={<Dsa/>} />
+      <Route exact path="/appdev" element={<AndroidDev/>} />
+      <Route exact path="/webdev" element={<WebDev/>} />
       
         </Routes>
       </Router>

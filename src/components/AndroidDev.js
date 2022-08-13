@@ -36,7 +36,7 @@ export default function AppDev() {
   </button>
 </div>
 <div  className='text-center container mt-5'>
-  <a style={{color:"red"}} href='VGB/android/VGB.apk'>Download</a>
+  <a style={{color:"red"}} href='android/VGB.apk'>Download</a>
 <h3 >HOW TO MAKE THIS APP</h3>
 <p>For make this type of App we need to learn  basic of java. We Should have a knowledge of android studio to make constraints and implemets the  code. <strong>AT last main part is java.</strong>By the help of simple programming idea like:-if-else,loop,onclick function help you to complete this App </p>
 <strong>java code part  ( home page-calculator)</strong>
